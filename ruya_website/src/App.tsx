@@ -9,68 +9,29 @@ function App() {
 
   return (
     <>
-    <section id="spacer"></section>
-        <div id="social">
-
+      
+        <div className='flex flex-col h-full w-full items-center  content-center' id="social">
           <h2>Rüya Serin</h2>
           <p>Sosyal Medya</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                YouTube
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Instagram
-              </a>
-            </li>
-              <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                TikTok
-              </a>
-            </li>
-            <li>
-                <h1 className="text-3xl font-bold underline">
-                  Hello world!
-                </h1>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-          </ul>
+          <div className='flex flex-col items-center flex-wrap gap-4 items-center'>
+            <button className="w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Button
+            </button>
+            <button className="w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Button
+            </button>
+            <button className="w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Button
+            </button>
+            <button className="w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Button
+            </button>
+            <button className="w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Button
+            </button>
+          </div>
         </div>
-      <section id="spacer"></section>
+
     </>
   )
 }
