@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-    "homepage": "https://ercan-ozturk.github.io/ruya",
+    "homepage": "https://ercan-ozturk.github.io/Ruya",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
