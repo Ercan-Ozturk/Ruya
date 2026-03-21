@@ -9,11 +9,14 @@ function App() {
       
         <div className='flex flex-col min-h-screen bg-[url(src/assets/bg.JPG)] bg-auto bg-center '>
           <div className="m-auto">
-            <img
-              className="h-75 w-75  rounded-full object-center shadow-2xl"
-              src="src\assets\ruya.JPG"
-              alt="Rüya Serin"
-            />
+            <div className='flex items-center justify-center'>
+              <img
+                className="rounded-full object-center shadow-2xl size-50"
+                src="src\assets\ruya.JPG"
+                alt="Rüya Serin"
+              />
+            </div>
+
             <h2 className='text-4xl font-bold tracking-tight text-heading text-gray-50 text-center'>Rüya Serin</h2>
             <div className='font-[Barlow] flex flex-col items-center flex-wrap gap-4 items-center my-8' >
               <a href='https://www.youtube.com/@ruyaseriin'>
@@ -40,12 +43,12 @@ function App() {
               </a>
               <a href=''>
                 <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>Dolap</span>
+                  <span>Dolap Mağazam</span>
                 </button>
               </a>
               <a href=''>
                 <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>Shopier</span>
+                  <span>Shopier Mağazam</span>
                 </button>
               </a>
               
