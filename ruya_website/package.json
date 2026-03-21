@@ -2,6 +2,7 @@
   "name": "ruya_website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Ercan-Ozturk.github.io/Ruya",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,16 +11,14 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    
   },
-  "homepage": "https://Ercan-Ozturk.github.io/Ruya",
+
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tailwindcss": "^4.2.2"
   },
-
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@types/node": "^24.12.0",
