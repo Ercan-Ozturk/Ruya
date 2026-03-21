@@ -11,14 +11,15 @@ function App() {
           <div className="m-auto">
             <div className='flex items-center justify-center'>
               <img
-                className="rounded-full object-center shadow-2xl size-50"
+                className="rounded-full object-center shadow-2xl size-30"
                 src="src\assets\ruya.JPG"
                 alt="Rüya Serin"
               />
             </div>
 
-            <h2 className='text-4xl font-bold tracking-tight text-heading text-gray-50 text-center'>Rüya Serin</h2>
-            <div className='font-[Barlow] flex flex-col items-center flex-wrap gap-4 items-center my-8' >
+            <h2 className='text-4xl  tracking-tight text-heading text-[#FFF5D4] text-center'>Rüya Serin</h2>
+            <p className="text-md text-center text-white">Dijital İçerik Üretici & Bağımsız Sanatçı</p>
+            <div className='font-[Barlow] flex flex-col items-center flex-wrap gap-4 items-center' >
               <a href='https://www.youtube.com/@ruyaseriin'>
                 <button className="bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
                   <span>YouTube</span>
