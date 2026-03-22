@@ -49,11 +49,11 @@ function App() {
 
                 </button>
               </a>
-              <a>
+              <a href='https://x.com/ruyaseriin'>
                 <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-92">
-                  <SocialIcon url="www.twitter.com" />
-                  <span className='grow'>Twitter</span>
-                  <SocialIcon url="www.twitter.com  " className="opacity-0" />
+                  <SocialIcon url="www.x.com" className='grow-0' />
+                  <span className='grow'>Twitter(X)</span>
+                  <SocialIcon url="www.x.com  " className="opacity-0" />
                 </button>
               </a>
               <a href='https://link.dolap.com/lvqqpv'>
