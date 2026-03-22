@@ -10,18 +10,17 @@ function App() {
     
         <div className='flex flex-col min-h-screen bg-[url(/bg.jpg)]  bg-auto bg-center'>
           <div className="mx-auto content-center">
-            <div className='flex items-center justify-center m-6'>
-        
+            <div className='flex flex-col items-center justify-center m-4'>
               <img
-                className="rounded-full shadow-2xl size-45 lg:size-60"
+                className="rounded-full shadow-2xl size-40 lg:size-60"
                 src="/ruya.jpg"
                 alt="Rüya Serin"
               />
-            </div>
-
             <h2 className='text-4xl tracking-tight text-heading text-white text-center  font-[Barriecito]'>Rüya Serin</h2>
             <p className="text-md text-center text-white font-[Schoolbell] ">Dijital İçerik Üretici & Bağımsız Sanatçı</p>
-            <div className='font-[Barriecito] flex flex-col gap-4' >
+            </div>
+
+            <div className='font-[Barriecito] flex flex-col gap-2' >
               <a href='https://www.youtube.com/@ruyaseriin'>
                 <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-92">
                   <SocialIcon url="www.youtube.com" className='grow-0'/>     
