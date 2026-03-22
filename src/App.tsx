@@ -13,7 +13,7 @@ function App() {
         
               <img
                 className="rounded-full shadow-2xl size-45 lg:size-60"
-                src="src\assets\ruya.JPG"
+                src="./assets/ruya.JPG"
                 alt="Rüya Serin"
               />
             </div>
