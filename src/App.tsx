@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     
-        <div className='flex flex-col min-h-screen bg-[url(src/assets/bg.JPG)] bg-auto bg-center'>
+        <div className='flex flex-col min-h-screen bg-[url(src/assets/bg.JPG)]  bg-auto bg-center'>
           <div className="m-auto content-center">
             <div className='flex items-center justify-center p-6'>
         
