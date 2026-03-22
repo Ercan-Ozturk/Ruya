@@ -56,7 +56,7 @@ function App() {
                   <SocialIcon url="https://www.x.com/ruyaseriin" className="opacity-0" />
                 </button>
               </a>
-              <a href='https://www.link.dolap.com/lvqqpv' target='_blank' rel='noopener noreferrer'>
+              <a href='https://link.dolap.com/lvqqpv' target='_blank' rel='noopener noreferrer'>
                 <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl  py-2 px-8 rounded-2xl shadow-xl w-92 ">
                   <span className='grow'>Dolap Mağazam</span>
                 </button>
