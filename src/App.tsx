@@ -8,13 +8,13 @@ function App() {
   return (
     <>
     
-        <div className='flex flex-col min-h-screen bg-[url(dist/assets/bg.jpg)]  bg-auto bg-center'>
+        <div className='flex flex-col min-h-screen bg-[url(/bg.jpg)]  bg-auto bg-center'>
           <div className="m-auto content-center">
             <div className='flex items-center justify-center p-6'>
         
               <img
                 className="rounded-full shadow-2xl size-45 lg:size-60"
-                src="dist/assets/ruya.jpg"
+                src="/ruya.jpg"
                 alt="Rüya Serin"
               />
             </div>
