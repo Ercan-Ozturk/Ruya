@@ -21,14 +21,14 @@ function App() {
             </div>
 
             <div className='font-[Barriecito] flex flex-col gap-2' >
-              <a href='//youtube.com/@ruyaseriin'>
+              <a href='//youtube.com/@ruyaseriin' target='_blank' rel='noopener noreferrer'>
                 <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-92">
                   <SocialIcon url="www.youtube.com" className='grow-0'/>     
                   <span className='grow'>YouTube</span>
                   <SocialIcon url="www.instagram.com" className='grow-0 opacity-0'/>
                 </button>
               </a>
-              <a href='//instagram.com/ruyaseriin/'>
+              <a href='//instagram.com/ruyaseriin/' target='_blank' rel='noopener noreferrer' >
                 <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-92">
                   <SocialIcon url="www.instagram.com" className='grow-0 '/>
                   <span className='grow'> 
@@ -40,7 +40,7 @@ function App() {
                   </div>
                 </button>
               </a>
-              <a href='//tiktok.com/@ruyaseriin'>
+              <a href='//tiktok.com/@ruyaseriin'  target='_blank' rel='noopener noreferrer'>
                 <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-92  ">
                   
                   <SocialIcon url="www.tiktok.com" className='grow-0'/>
@@ -49,19 +49,19 @@ function App() {
 
                 </button>
               </a>
-              <a href='//x.com/ruyaseriin'>
+              <a href='//x.com/ruyaseriin' target='_blank' rel='noopener noreferrer'>
                 <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-92">
                   <SocialIcon url="www.x.com" className='grow-0' />
                   <span className='grow'>Twitter(X)</span>
                   <SocialIcon url="www.x.com  " className="opacity-0" />
                 </button>
               </a>
-              <a href='//link.dolap.com/lvqqpv'>
+              <a href='//link.dolap.com/lvqqpv' target='_blank' rel='noopener noreferrer'>
                 <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl  py-2 px-8 rounded-2xl shadow-xl w-92 ">
                   <span className='grow'>Dolap Mağazam</span>
                 </button>
               </a>
-              <a href='//shopier.com/serinsanat'>
+              <a href='//shopier.com/serinsanat' target='_blank' rel='noopener noreferrer'>
                 <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl py-2 px-8 rounded-2xl shadow-xl w-92">
                   <span className='grow'>Shopier Mağazam</span>
                 </button>
