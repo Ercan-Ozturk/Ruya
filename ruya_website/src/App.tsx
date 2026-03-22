@@ -1,61 +1,76 @@
 
 import './App.css'
-
+import { SocialIcon } from 'react-social-icons'
 function App() {
 
 
   return (
     <>
-      
-        <div className='flex flex-col min-h-screen bg-[url(src/assets/bg.JPG)] bg-auto bg-center '>
-          <div className="m-auto">
-            <div className='flex items-center justify-center'>
+    
+        <div className='flex flex-col min-h-screen bg-[url(src/assets/bg.JPG)] bg-auto bg-center'>
+          <div className="m-auto content-center">
+            <div className='flex items-center justify-center p-6'>
+        
               <img
-                className="rounded-full object-center shadow-2xl size-30"
+                className="rounded-full shadow-2xl size-45 lg:size-60"
                 src="src\assets\ruya.JPG"
                 alt="Rüya Serin"
               />
             </div>
 
-            <h2 className='text-4xl  tracking-tight text-heading text-[#FFF5D4] text-center'>Rüya Serin</h2>
-            <p className="text-md text-center text-white">Dijital İçerik Üretici & Bağımsız Sanatçı</p>
-            <div className='font-[Barlow] flex flex-col items-center flex-wrap gap-4 items-center' >
+            <h2 className='text-4xl tracking-tight text-heading text-white text-center  font-[Barriecito]'>Rüya Serin</h2>
+            <p className="text-md text-center text-white font-[Schoolbell]">Dijital İçerik Üretici & Bağımsız Sanatçı</p>
+            <div className='font-[Barriecito] flex flex-col gap-4 py-2' >
               <a href='https://www.youtube.com/@ruyaseriin'>
-                <button className="bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>YouTube</span>
+                <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-100">
+                  <SocialIcon url="www.youtube.com" className='grow-0'/>     
+                  <span className='grow'>YouTube</span>
+                  <SocialIcon url="www.instagram.com" className='grow-0 opacity-0'/>
                 </button>
               </a>
               <a href='https://www.instagram.com/ruyaseriin/'>
-                <button className="bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>
+                <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-100">
+                  <SocialIcon url="www.instagram.com" className='grow-0 '/>
+                  <span className='grow'> 
                     Instagram
                   </span>
+                  <SocialIcon url="www.instagram.com" className='grow-0  opacity-0'/>
+                  <div>
+
+                  </div>
                 </button>
               </a>
               <a href='https://www.tiktok.com/@ruyaseriin'>
-                <button className="bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>TikTok</span>
+                <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-100  ">
+                  
+                  <SocialIcon url="www.tiktok.com" className='grow-0'/>
+                  <span className='grow'>TikTok</span>
+                  <SocialIcon url="www.tiktok.com" className='grow-0  opacity-0'/>
+
                 </button>
               </a>
               <a>
-                <button className="bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>Twitter</span>
+                <button className="flex flex-row-2 bg-[#FFF5D4] hover:bg-gray-400 text-[#4F4747] text-4xl  py-2 px-8 rounded-2xl shadow-xl w-100">
+                  <SocialIcon url="www.twitter.com" />
+                  <span className='grow'>Twitter</span>
+                  <SocialIcon url="www.twitter.com  " className="opacity-0" />
                 </button>
               </a>
-              <a href=''>
-                <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl  py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>Dolap Mağazam</span>
+              <a href='https://link.dolap.com/lvqqpv'>
+                <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl  py-2 px-8 rounded-2xl shadow-xl w-100 ">
+                  <span className='grow'>Dolap Mağazam</span>
                 </button>
               </a>
-              <a href=''>
-                <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl py-4 px-8 rounded-2xl items-center shadow-xl w-75">
-                  <span>Shopier Mağazam</span>
+              <a href='https://www.shopier.com/serinsanat'>
+                <button className="bg-[#97770D] hover:bg-gray-400 text-[#FFF5D4] text-3xl py-2 px-8 rounded-2xl shadow-xl w-100">
+                  <span className='grow'>Shopier Mağazam</span>
                 </button>
               </a>
               
               
               
             </div>
+            <p className="text-xl text-center text-white font-[Schoolbell] pt-2">İletişim: ruyaserin.art@gmail.com</p>
           </div>
 
         </div>

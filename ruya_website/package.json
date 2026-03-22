@@ -1,6 +1,6 @@
 {
   "name": "ruya_website",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://Ercan-Ozturk.github.io/Ruya",
   "type": "module",
@@ -12,11 +12,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-social-icons": "^6.25.0",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
