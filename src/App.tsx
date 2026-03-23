@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <div className="flex flex-col min-h-screen bg-[url(/bg.jpg)]  bg-auto bg-center">
-        <div className="mx-auto md:m-auto flex flex-col items-center">
-          <div className="flex flex-col items-center justify-center m-4">
+        <div className="mx-auto flex flex-col items-center align-top md:m-auto">
+          <div className="flex flex-col items-center justify-center my-2">
             <img
-              className="rounded-full shadow-2xl size-40 lg:size-60"
+              className="rounded-full shadow-2xl size-40 md:size-60"
               src="/ruya.jpg"
               alt="Rüya Serin"
             />
