@@ -5,8 +5,8 @@ import SocialButton from "./SocialButton";
 function App() {
   return (
     <>
-      <div className="flex flex-col min-h-screen bg-[url(/bg.jpg)]  bg-auto bg-center">
-        <div className="mx-auto flex flex-col items-center align-top md:m-auto">
+      <div className="flex flex-col h-svh bg-[url(/bg.jpg)]  bg-auto bg-center">
+        <div className="m-auto flex flex-col items-center align-top">
           <div className="flex flex-col items-center justify-center my-2">
             <img
               className="rounded-full shadow-2xl size-40 md:size-60"
