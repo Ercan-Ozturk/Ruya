@@ -1,6 +1,5 @@
 import "./App.css";
 import "./SocialButton";
-import { SocialIcon } from "react-social-icons";
 import SocialButton from "./SocialButton";
 
 function App() {
